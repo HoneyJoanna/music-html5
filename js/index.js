@@ -5,6 +5,8 @@ var songList;
 var controlmanager;
 var audio = new root.audioManager();
 
+console.log(3333);
+
 function bindClick(){
 	//自定义事件
 	$scope.on("play:change", function(event, index, flag){
